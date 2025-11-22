@@ -1,0 +1,46 @@
+{
+  "class_names": [
+    "accordion",
+    "airplanes",
+    "anchor",
+    "ant",
+    "background_google",
+    "barrel",
+    "bass",
+    "beaver",
+    "binocular",
+    "bonsai",
+    "brain",
+    "brontosaurus",
+    "buddha",
+    "butterfly",
+    "camera",
+    "cannon",
+    "car_side",
+    "ceiling_fan",
+    "cellphone",
+    "chair"
+  ],
+  "num_classes": 20,
+  "img_size": [
+    224,
+    224
+  ],
+  "models_performance": {
+    "cnn_baseline": {
+      "accuracy": 0.1320754736661911,
+      "loss": 3.311061143875122,
+      "train_time_min": 7.905463695526123
+    },
+    "mobilenetv2": {
+      "accuracy": 0.7169811129570007,
+      "loss": 1.004467487335205,
+      "train_time_min": 2.328562494119008
+    },
+    "efficientnet": {
+      "accuracy": 0.056603774428367615,
+      "loss": 3.0016286373138428,
+      "train_time_min": 3.1828980684280395
+    }
+  }
+}
